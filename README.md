@@ -45,8 +45,6 @@ yarn global add expo-cli
     ```bash
     git clone https://github.com/seu-usuario/LockWise.git
     cd LockWise
-    ```
-    *(Nota: Substitua `https://github.com/seu-usuario/LockWise.git` pelo URL real do seu repositório)*
 
 2.  **Instale as dependências:**
     ```bash
