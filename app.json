@@ -1,29 +1,39 @@
 {
   "expo": {
-    "name": "gerador-senha",
+    "name": "LockWise",
     "slug": "gerador-senha",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/iconApp.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./src/assets/iconApp.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#111827"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deivcode.geradorsenha",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/iconApp.jpg",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.deivcode.geradorsenha"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./src/assets/iconApp.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1fb71c0-6a30-4a9a-820e-582f836aaf96"
+      }
     }
   }
 }
